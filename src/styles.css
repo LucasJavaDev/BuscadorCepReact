@@ -1,0 +1,79 @@
+main{
+    background-color: #5E5762;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.8);
+}
+
+.input{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    padding-bottom: 50px;
+}
+.containerInput{
+    width: 90%;
+    background-color: #2B1038;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 800;
+    background: transparent;
+    cursor: pointer;
+}
+#button:hover{
+    transform: scale(1.2);
+}
+#inputText{
+    color: #fff;
+    font-size: 18px;
+    width: 75%;
+    height: 40px;
+    border: none;
+    flex-grow: 1;
+    background: transparent;
+    padding-left: 15px;
+    outline: none;
+}
+.info{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infoLocate{
+    background-color: #3D3A3E;
+    height: 75%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.infoLocate h2{
+    margin: 16px 0;
+}
+.infoLocate span{
+    margin: 5px 0;
+}
